@@ -1,0 +1,6 @@
+framework module Pods_bnc_ios_latihan_bnc_ios_latihanUITests {
+  umbrella header "Pods-bnc-ios-latihan-bnc-ios-latihanUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

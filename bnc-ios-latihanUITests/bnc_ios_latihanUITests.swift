@@ -8,35 +8,92 @@
 import XCTest
 
 class bnc_ios_latihanUITests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-
-        // In UI tests it is usually best to stop immediately when a failure occurs.
-        continueAfterFailure = false
-
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // UI tests must launch the application that they test.
+    
+    func testFlow() {
+        //MARK: Launch Apps
         let app = XCUIApplication()
         app.launch()
+        //-----------------------------
+        
+        
+        //MARK: Input Email
+        let email = app.textFields["textFieldEmail"]
+        email.tap()
+        email.typeText("test@mail.com")
+        //-----------------------------
 
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        //MARK: Input Password
+        let password = app.secureTextFields["textFieldPassword"]
+        password.tap()
+        password.typeText("BESARkecil123@--")
+        //-----------------------------
+
+        
+        //MARK: Click Button Login
+        app.buttons["Login"].tap()
+        sleep(5)
+        //-----------------------------
+        
+        
+        //MARK: Detail View
+        let tablesQuery = app.tables
+        tablesQuery.cells.containing(.staticText, identifier:"Movie 1").staticTexts["Release Date: 2010"].tap()
+        sleep(5)
+        //-----------------------------
+        
+        
+        //MARK: Check wishlist empty
+        let tabBar = app.tabBars["Tab Bar"]
+        let homeTab = tabBar.buttons["Home"]
+        let wishListTab = tabBar.buttons["Wishlist"]
+        
+        wishListTab.tap()
+        sleep(3)
+        
+        homeTab.tap()
+        sleep(3)
+        //-----------------------------
+        
+        
+        //MARK: Add Movie to wishlist
+        let favoriteInactiveButton1 = tablesQuery.cells.containing(.staticText, identifier:"Movie 1").buttons["favorite inactive"]
+        let favoriteInactiveButton2 = tablesQuery.cells.containing(.staticText, identifier:"Movie 2").buttons["favorite inactive"]
+        let favoriteInactiveButton5 = tablesQuery.cells.containing(.staticText, identifier:"Movie 5").buttons["favorite inactive"]
+        
+        favoriteInactiveButton1.tap()
+        favoriteInactiveButton2.tap()
+        favoriteInactiveButton5.tap()
+        sleep(3)
+        //-----------------------------
+        
+        
+        //MARK: Check wishlist movie
+        wishListTab.tap()
+        sleep(3)
+        //-----------------------------
+        
+        
+        //MARK: Remove wishlist movie
+        let favoriteButton1 = tablesQuery.cells.containing(.staticText, identifier:"Movie 1").buttons["favorite"]
+        let favoriteButton2 = tablesQuery.cells.containing(.staticText, identifier:"Movie 2").buttons["favorite"]
+        let favoriteButton5 = tablesQuery.cells.containing(.staticText, identifier:"Movie 5").buttons["favorite"]
+        favoriteButton1.tap()
+        favoriteButton2.tap()
+        favoriteButton5.tap()
+        sleep(3)
+        //-----------------------------
+        
+        
+        //MARK: Check list movie
+        homeTab.tap()
+        sleep(3)
+        //-----------------------------
+        
+        //MARK: Logout
+        app.navigationBars["Home"].buttons["Logout"].tap()
+        sleep(3)
+        //-----------------------------
     }
 
-    func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
-            // This measures how long it takes to launch your application.
-            measure(metrics: [XCTApplicationLaunchMetric()]) {
-                XCUIApplication().launch()
-            }
-        }
-    }
 }

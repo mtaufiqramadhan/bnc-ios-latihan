@@ -7,16 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		741DCBE79477E64174DA90C0 /* Pods_bnc_ios_latihan_bnc_ios_latihanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7425ADBA52651177AB5F52DD /* Pods_bnc_ios_latihan_bnc_ios_latihanUITests.framework */; };
+		77A15CCB27C1E280004A6420 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A15CCA27C1E280004A6420 /* BaseViewController.swift */; };
+		77A15CCD27C1ED3C004A6420 /* MovieDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A15CCC27C1ED3C004A6420 /* MovieDataSource.swift */; };
+		77A15CCF27C1EDA4004A6420 /* MovieEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A15CCE27C1EDA4004A6420 /* MovieEntity.swift */; };
+		77A15CD127C24A52004A6420 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A15CD027C24A51004A6420 /* UITableView.swift */; };
+		77A15CD427C285A3004A6420 /* ImagePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A15CD327C285A3004A6420 /* ImagePreview.swift */; };
+		77A15CD627C285B2004A6420 /* ImagePreview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77A15CD527C285B2004A6420 /* ImagePreview.xib */; };
 		77C21C8327BF769B0038507C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C21C8227BF769B0038507C /* AppDelegate.swift */; };
-		77C21C8527BF769B0038507C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C21C8427BF769B0038507C /* SceneDelegate.swift */; };
-		77C21C8727BF769B0038507C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C21C8627BF769B0038507C /* ViewController.swift */; };
-		77C21C8A27BF769B0038507C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C21C8827BF769B0038507C /* Main.storyboard */; };
 		77C21C8D27BF769B0038507C /* bnc_ios_latihan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 77C21C8B27BF769B0038507C /* bnc_ios_latihan.xcdatamodeld */; };
 		77C21C8F27BF769E0038507C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77C21C8E27BF769E0038507C /* Assets.xcassets */; };
 		77C21C9227BF769E0038507C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C21C9027BF769E0038507C /* LaunchScreen.storyboard */; };
 		77C21C9D27BF769E0038507C /* bnc_ios_latihanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C21C9C27BF769E0038507C /* bnc_ios_latihanTests.swift */; };
 		77C21CA727BF769E0038507C /* bnc_ios_latihanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C21CA627BF769E0038507C /* bnc_ios_latihanUITests.swift */; };
-		77C21CA927BF769E0038507C /* bnc_ios_latihanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C21CA827BF769E0038507C /* bnc_ios_latihanUITestsLaunchTests.swift */; };
+		77C21CBC27BF83AE0038507C /* BottomNavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C21CBB27BF83AE0038507C /* BottomNavigationVC.swift */; };
+		77C21CBE27BF83C60038507C /* BottomNavigationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77C21CBD27BF83C60038507C /* BottomNavigationVC.xib */; };
+		77C21CC027BF854D0038507C /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77C21CBF27BF854D0038507C /* HomeVC.xib */; };
+		77C21CC227BF85FD0038507C /* WishlistVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77C21CC127BF85FD0038507C /* WishlistVC.xib */; };
+		77C21CC427BF86080038507C /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77C21CC327BF86080038507C /* LoginVC.xib */; };
+		77C21CC627BF869B0038507C /* DetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77C21CC527BF869B0038507C /* DetailVC.xib */; };
+		77C21CCC27BF878B0038507C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C21CCB27BF878B0038507C /* LoginVC.swift */; };
+		77C21CCE27BF87DB0038507C /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C21CCD27BF87DB0038507C /* HomeVC.swift */; };
+		77C21CD027BF87FE0038507C /* WishlistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C21CCF27BF87FE0038507C /* WishlistVC.swift */; };
+		77C21CD227BF882A0038507C /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C21CD127BF882A0038507C /* DetailVC.swift */; };
+		77C21CD827BF89C00038507C /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C21CD727BF89C00038507C /* RemoteDataSource.swift */; };
+		77C21CDC27BF8C330038507C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C21CDB27BF8C330038507C /* DataManager.swift */; };
+		77C21CDE27BF8CA40038507C /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C21CDD27BF8CA40038507C /* Reachability.swift */; };
+		77C21CE027BF8CB30038507C /* NetworkAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C21CDF27BF8CB30038507C /* NetworkAlert.swift */; };
+		77C21CE327BF8DC00038507C /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C21CE227BF8DC00038507C /* UserDefault.swift */; };
+		77C21CE727BF92350038507C /* RouteSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C21CE627BF92350038507C /* RouteSetup.swift */; };
+		77C21CEB27BFAD560038507C /* EndpointSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C21CEA27BFAD560038507C /* EndpointSetup.swift */; };
+		77C21CEE27BFADE50038507C /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C21CED27BFADE50038507C /* BaseModel.swift */; };
+		77C21CF427BFB0F00038507C /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C21CF327BFB0F00038507C /* LoginModel.swift */; };
+		77C21D0027BFB4660038507C /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C21CFF27BFB4660038507C /* UIView.swift */; };
+		77C21D0B27BFB95A0038507C /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C21D0A27BFB95A0038507C /* View.swift */; };
+		77C21D0D27BFB96B0038507C /* Switcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C21D0C27BFB96B0038507C /* Switcher.swift */; };
+		77C21D0F27C028290038507C /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C21D0E27C028290038507C /* String.swift */; };
+		77D0879B27C07AD6004ECF64 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D0879A27C07AD6004ECF64 /* LoginInteractor.swift */; };
+		77D0879E27C08377004ECF64 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D0879D27C08377004ECF64 /* LoginPresenter.swift */; };
+		77D087A027C083E9004ECF64 /* BasePresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D0879F27C083E9004ECF64 /* BasePresenterProtocol.swift */; };
+		77D087A227C08449004ECF64 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D087A127C08449004ECF64 /* BasePresenter.swift */; };
+		77D087A427C0A090004ECF64 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D087A327C0A090004ECF64 /* UIImageView.swift */; };
+		77D087A727C0A220004ECF64 /* ListMovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D087A627C0A220004ECF64 /* ListMovieCell.swift */; };
+		77D087A927C0A234004ECF64 /* ListMovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77D087A827C0A234004ECF64 /* ListMovieCell.xib */; };
+		77D087AB27C0BDB4004ECF64 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D087AA27C0BDB4004ECF64 /* MovieModel.swift */; };
+		77D087AD27C0CFBE004ECF64 /* MovieInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D087AC27C0CFBE004ECF64 /* MovieInteractor.swift */; };
+		77D087B127C0D212004ECF64 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D087B027C0D212004ECF64 /* HomePresenter.swift */; };
+		77D087B327C16102004ECF64 /* DetailMovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D087B227C16102004ECF64 /* DetailMovieModel.swift */; };
+		77D087B527C16116004ECF64 /* DetailMovieInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D087B427C16116004ECF64 /* DetailMovieInteractor.swift */; };
+		77D087B927C166FE004ECF64 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D087B827C166FE004ECF64 /* DetailPresenter.swift */; };
+		8649AA14BD2C645D45E6A960 /* Pods_bnc_ios_latihan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F51DA70AD82C5684CCEA2B /* Pods_bnc_ios_latihan.framework */; };
+		8C6CA1A875180D0C132FD995 /* Pods_bnc_ios_latihanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68747D57CA370D55217F0024 /* Pods_bnc_ios_latihanTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +78,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		132537DB30F12E5405FB282F /* Pods-bnc-ios-latihanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bnc-ios-latihanTests.debug.xcconfig"; path = "Target Support Files/Pods-bnc-ios-latihanTests/Pods-bnc-ios-latihanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E294D8F96FF5439C9167766 /* Pods-bnc-ios-latihan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bnc-ios-latihan.debug.xcconfig"; path = "Target Support Files/Pods-bnc-ios-latihan/Pods-bnc-ios-latihan.debug.xcconfig"; sourceTree = "<group>"; };
+		5333FC043485F330D8703ED5 /* Pods-bnc-ios-latihan-bnc-ios-latihanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bnc-ios-latihan-bnc-ios-latihanUITests.release.xcconfig"; path = "Target Support Files/Pods-bnc-ios-latihan-bnc-ios-latihanUITests/Pods-bnc-ios-latihan-bnc-ios-latihanUITests.release.xcconfig"; sourceTree = "<group>"; };
+		57F51DA70AD82C5684CCEA2B /* Pods_bnc_ios_latihan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bnc_ios_latihan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68747D57CA370D55217F0024 /* Pods_bnc_ios_latihanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bnc_ios_latihanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7425ADBA52651177AB5F52DD /* Pods_bnc_ios_latihan_bnc_ios_latihanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bnc_ios_latihan_bnc_ios_latihanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A15CCA27C1E280004A6420 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		77A15CCC27C1ED3C004A6420 /* MovieDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDataSource.swift; sourceTree = "<group>"; };
+		77A15CCE27C1EDA4004A6420 /* MovieEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieEntity.swift; sourceTree = "<group>"; };
+		77A15CD027C24A51004A6420 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		77A15CD327C285A3004A6420 /* ImagePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreview.swift; sourceTree = "<group>"; };
+		77A15CD527C285B2004A6420 /* ImagePreview.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImagePreview.xib; sourceTree = "<group>"; };
 		77C21C7F27BF769B0038507C /* bnc-ios-latihan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bnc-ios-latihan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77C21C8227BF769B0038507C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		77C21C8427BF769B0038507C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		77C21C8627BF769B0038507C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		77C21C8927BF769B0038507C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77C21C8C27BF769B0038507C /* bnc_ios_latihan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = bnc_ios_latihan.xcdatamodel; sourceTree = "<group>"; };
 		77C21C8E27BF769E0038507C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77C21C9127BF769E0038507C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,7 +100,45 @@
 		77C21C9C27BF769E0038507C /* bnc_ios_latihanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bnc_ios_latihanTests.swift; sourceTree = "<group>"; };
 		77C21CA227BF769E0038507C /* bnc-ios-latihanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bnc-ios-latihanUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77C21CA627BF769E0038507C /* bnc_ios_latihanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bnc_ios_latihanUITests.swift; sourceTree = "<group>"; };
-		77C21CA827BF769E0038507C /* bnc_ios_latihanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bnc_ios_latihanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		77C21CBB27BF83AE0038507C /* BottomNavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationVC.swift; sourceTree = "<group>"; };
+		77C21CBD27BF83C60038507C /* BottomNavigationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomNavigationVC.xib; sourceTree = "<group>"; };
+		77C21CBF27BF854D0038507C /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		77C21CC127BF85FD0038507C /* WishlistVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WishlistVC.xib; sourceTree = "<group>"; };
+		77C21CC327BF86080038507C /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		77C21CC527BF869B0038507C /* DetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailVC.xib; sourceTree = "<group>"; };
+		77C21CCB27BF878B0038507C /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		77C21CCD27BF87DB0038507C /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		77C21CCF27BF87FE0038507C /* WishlistVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistVC.swift; sourceTree = "<group>"; };
+		77C21CD127BF882A0038507C /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		77C21CD727BF89C00038507C /* RemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSource.swift; sourceTree = "<group>"; };
+		77C21CDB27BF8C330038507C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		77C21CDD27BF8CA40038507C /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		77C21CDF27BF8CB30038507C /* NetworkAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAlert.swift; sourceTree = "<group>"; };
+		77C21CE227BF8DC00038507C /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		77C21CE627BF92350038507C /* RouteSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteSetup.swift; sourceTree = "<group>"; };
+		77C21CEA27BFAD560038507C /* EndpointSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointSetup.swift; sourceTree = "<group>"; };
+		77C21CED27BFADE50038507C /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		77C21CF327BFB0F00038507C /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		77C21CFF27BFB4660038507C /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		77C21D0A27BFB95A0038507C /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		77C21D0C27BFB96B0038507C /* Switcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switcher.swift; sourceTree = "<group>"; };
+		77C21D0E27C028290038507C /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		77D0879A27C07AD6004ECF64 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		77D0879D27C08377004ECF64 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		77D0879F27C083E9004ECF64 /* BasePresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenterProtocol.swift; sourceTree = "<group>"; };
+		77D087A127C08449004ECF64 /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		77D087A327C0A090004ECF64 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		77D087A627C0A220004ECF64 /* ListMovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMovieCell.swift; sourceTree = "<group>"; };
+		77D087A827C0A234004ECF64 /* ListMovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListMovieCell.xib; sourceTree = "<group>"; };
+		77D087AA27C0BDB4004ECF64 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		77D087AC27C0CFBE004ECF64 /* MovieInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInteractor.swift; sourceTree = "<group>"; };
+		77D087B027C0D212004ECF64 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		77D087B227C16102004ECF64 /* DetailMovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieModel.swift; sourceTree = "<group>"; };
+		77D087B427C16116004ECF64 /* DetailMovieInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieInteractor.swift; sourceTree = "<group>"; };
+		77D087B827C166FE004ECF64 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		A5134204F95A979498F1194D /* Pods-bnc-ios-latihan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bnc-ios-latihan.release.xcconfig"; path = "Target Support Files/Pods-bnc-ios-latihan/Pods-bnc-ios-latihan.release.xcconfig"; sourceTree = "<group>"; };
+		B5766351902B3F36975F95B7 /* Pods-bnc-ios-latihanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bnc-ios-latihanTests.release.xcconfig"; path = "Target Support Files/Pods-bnc-ios-latihanTests/Pods-bnc-ios-latihanTests.release.xcconfig"; sourceTree = "<group>"; };
+		F2926FDA16B221AAAD890698 /* Pods-bnc-ios-latihan-bnc-ios-latihanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bnc-ios-latihan-bnc-ios-latihanUITests.debug.xcconfig"; path = "Target Support Files/Pods-bnc-ios-latihan-bnc-ios-latihanUITests/Pods-bnc-ios-latihan-bnc-ios-latihanUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8649AA14BD2C645D45E6A960 /* Pods_bnc_ios_latihan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C6CA1A875180D0C132FD995 /* Pods_bnc_ios_latihanTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +162,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				741DCBE79477E64174DA90C0 /* Pods_bnc_ios_latihan_bnc_ios_latihanUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77A15CD227C2857D004A6420 /* ImagePreview */ = {
+			isa = PBXGroup;
+			children = (
+				77A15CD327C285A3004A6420 /* ImagePreview.swift */,
+				77A15CD527C285B2004A6420 /* ImagePreview.xib */,
+			);
+			path = ImagePreview;
+			sourceTree = "<group>";
+		};
 		77C21C7627BF769B0038507C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +185,8 @@
 				77C21C9B27BF769E0038507C /* bnc-ios-latihanTests */,
 				77C21CA527BF769E0038507C /* bnc-ios-latihanUITests */,
 				77C21C8027BF769B0038507C /* Products */,
+				9AF2BD24AF61261CF7A78C61 /* Pods */,
+				CD2EB906C9B4372E56619750 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +203,11 @@
 		77C21C8127BF769B0038507C /* bnc-ios-latihan */ = {
 			isa = PBXGroup;
 			children = (
-				77C21C8227BF769B0038507C /* AppDelegate.swift */,
-				77C21C8427BF769B0038507C /* SceneDelegate.swift */,
-				77C21C8627BF769B0038507C /* ViewController.swift */,
-				77C21C8827BF769B0038507C /* Main.storyboard */,
-				77C21C8E27BF769E0038507C /* Assets.xcassets */,
-				77C21C9027BF769E0038507C /* LaunchScreen.storyboard */,
-				77C21C9327BF769E0038507C /* Info.plist */,
-				77C21C8B27BF769B0038507C /* bnc_ios_latihan.xcdatamodeld */,
+				77C21CB527BF7EC60038507C /* App */,
+				77C21CB627BF81E50038507C /* Core */,
+				77C21CB727BF81EE0038507C /* Component */,
+				77C21CB827BF81F70038507C /* Module */,
+				77C21CB927BF828B0038507C /* Supporting Files */,
 			);
 			path = "bnc-ios-latihan";
 			sourceTree = "<group>";
@@ -125,9 +224,304 @@
 			isa = PBXGroup;
 			children = (
 				77C21CA627BF769E0038507C /* bnc_ios_latihanUITests.swift */,
-				77C21CA827BF769E0038507C /* bnc_ios_latihanUITestsLaunchTests.swift */,
 			);
 			path = "bnc-ios-latihanUITests";
+			sourceTree = "<group>";
+		};
+		77C21CB527BF7EC60038507C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				77C21C8227BF769B0038507C /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		77C21CB627BF81E50038507C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				77C21CD427BF895D0038507C /* Data */,
+				77C21CD627BF896E0038507C /* Domain */,
+				77C21CD327BF88510038507C /* Utils */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		77C21CB727BF81EE0038507C /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				77A15CD227C2857D004A6420 /* ImagePreview */,
+				77C21CBA27BF83970038507C /* Navigation */,
+				77D087A527C0A203004ECF64 /* TableViewCell */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		77C21CB827BF81F70038507C /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				77C21CCA27BF877B0038507C /* Detail */,
+				77C21CC927BF87240038507C /* Wishlist */,
+				77C21CC827BF871D0038507C /* Home */,
+				77C21CC727BF87160038507C /* Login */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		77C21CB927BF828B0038507C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77C21C8E27BF769E0038507C /* Assets.xcassets */,
+				77C21C9027BF769E0038507C /* LaunchScreen.storyboard */,
+				77C21C8B27BF769B0038507C /* bnc_ios_latihan.xcdatamodeld */,
+				77C21C9327BF769E0038507C /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77C21CBA27BF83970038507C /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				77C21CBB27BF83AE0038507C /* BottomNavigationVC.swift */,
+				77C21CBD27BF83C60038507C /* BottomNavigationVC.xib */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		77C21CC727BF87160038507C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				77C21CF527BFB2090038507C /* Presenter */,
+				77C21CF627BFB2670038507C /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		77C21CC827BF871D0038507C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				77D087AF27C0D030004ECF64 /* Presenter */,
+				77D087AE27C0D02B004ECF64 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		77C21CC927BF87240038507C /* Wishlist */ = {
+			isa = PBXGroup;
+			children = (
+				77C21CCF27BF87FE0038507C /* WishlistVC.swift */,
+				77C21CC127BF85FD0038507C /* WishlistVC.xib */,
+			);
+			path = Wishlist;
+			sourceTree = "<group>";
+		};
+		77C21CCA27BF877B0038507C /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				77D087B727C166DC004ECF64 /* Presenter */,
+				77D087B627C166D3004ECF64 /* View */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		77C21CD327BF88510038507C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				77C21CEC27BFADD60038507C /* Base */,
+				77C21CFE27BFB4560038507C /* Extension */,
+				77C21D0927BFB9490038507C /* Helper */,
+				77C21CD927BF8BF50038507C /* Network */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		77C21CD427BF895D0038507C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				77D0879C27C07D2F004ECF64 /* Locale */,
+				77C21CE427BF8EC60038507C /* Remote */,
+				77C21CE127BF8D850038507C /* UserDefault */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		77C21CD627BF896E0038507C /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				77C21CEF27BFB0010038507C /* Model */,
+				77C21CF027BFB0070038507C /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		77C21CD927BF8BF50038507C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				77C21CD727BF89C00038507C /* RemoteDataSource.swift */,
+				77C21CDF27BF8CB30038507C /* NetworkAlert.swift */,
+				77C21CDD27BF8CA40038507C /* Reachability.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		77C21CE127BF8D850038507C /* UserDefault */ = {
+			isa = PBXGroup;
+			children = (
+				77C21CE227BF8DC00038507C /* UserDefault.swift */,
+			);
+			path = UserDefault;
+			sourceTree = "<group>";
+		};
+		77C21CE427BF8EC60038507C /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				77C21CEA27BFAD560038507C /* EndpointSetup.swift */,
+				77C21CE627BF92350038507C /* RouteSetup.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		77C21CEC27BFADD60038507C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				77A15CCA27C1E280004A6420 /* BaseViewController.swift */,
+				77C21CED27BFADE50038507C /* BaseModel.swift */,
+				77D087A127C08449004ECF64 /* BasePresenter.swift */,
+				77D0879F27C083E9004ECF64 /* BasePresenterProtocol.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		77C21CEF27BFB0010038507C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				77C21CF327BFB0F00038507C /* LoginModel.swift */,
+				77D087AA27C0BDB4004ECF64 /* MovieModel.swift */,
+				77D087B227C16102004ECF64 /* DetailMovieModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		77C21CF027BFB0070038507C /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				77D0879A27C07AD6004ECF64 /* LoginInteractor.swift */,
+				77D087AC27C0CFBE004ECF64 /* MovieInteractor.swift */,
+				77D087B427C16116004ECF64 /* DetailMovieInteractor.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		77C21CF527BFB2090038507C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				77D0879D27C08377004ECF64 /* LoginPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		77C21CF627BFB2670038507C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77C21CCB27BF878B0038507C /* LoginVC.swift */,
+				77C21CC327BF86080038507C /* LoginVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77C21CFE27BFB4560038507C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				77D087A327C0A090004ECF64 /* UIImageView.swift */,
+				77A15CD027C24A51004A6420 /* UITableView.swift */,
+				77C21CFF27BFB4660038507C /* UIView.swift */,
+				77C21D0E27C028290038507C /* String.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		77C21D0927BFB9490038507C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				77C21CDB27BF8C330038507C /* DataManager.swift */,
+				77C21D0C27BFB96B0038507C /* Switcher.swift */,
+				77C21D0A27BFB95A0038507C /* View.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		77D0879C27C07D2F004ECF64 /* Locale */ = {
+			isa = PBXGroup;
+			children = (
+				77A15CCC27C1ED3C004A6420 /* MovieDataSource.swift */,
+				77A15CCE27C1EDA4004A6420 /* MovieEntity.swift */,
+			);
+			path = Locale;
+			sourceTree = "<group>";
+		};
+		77D087A527C0A203004ECF64 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				77D087A627C0A220004ECF64 /* ListMovieCell.swift */,
+				77D087A827C0A234004ECF64 /* ListMovieCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		77D087AE27C0D02B004ECF64 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77C21CCD27BF87DB0038507C /* HomeVC.swift */,
+				77C21CBF27BF854D0038507C /* HomeVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77D087AF27C0D030004ECF64 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				77D087B027C0D212004ECF64 /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		77D087B627C166D3004ECF64 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77C21CD127BF882A0038507C /* DetailVC.swift */,
+				77C21CC527BF869B0038507C /* DetailVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77D087B727C166DC004ECF64 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				77D087B827C166FE004ECF64 /* DetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9AF2BD24AF61261CF7A78C61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E294D8F96FF5439C9167766 /* Pods-bnc-ios-latihan.debug.xcconfig */,
+				A5134204F95A979498F1194D /* Pods-bnc-ios-latihan.release.xcconfig */,
+				F2926FDA16B221AAAD890698 /* Pods-bnc-ios-latihan-bnc-ios-latihanUITests.debug.xcconfig */,
+				5333FC043485F330D8703ED5 /* Pods-bnc-ios-latihan-bnc-ios-latihanUITests.release.xcconfig */,
+				132537DB30F12E5405FB282F /* Pods-bnc-ios-latihanTests.debug.xcconfig */,
+				B5766351902B3F36975F95B7 /* Pods-bnc-ios-latihanTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CD2EB906C9B4372E56619750 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57F51DA70AD82C5684CCEA2B /* Pods_bnc_ios_latihan.framework */,
+				7425ADBA52651177AB5F52DD /* Pods_bnc_ios_latihan_bnc_ios_latihanUITests.framework */,
+				68747D57CA370D55217F0024 /* Pods_bnc_ios_latihanTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +531,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77C21CAC27BF769E0038507C /* Build configuration list for PBXNativeTarget "bnc-ios-latihan" */;
 			buildPhases = (
+				032B3A28E826E8005EBB6C8F /* [CP] Check Pods Manifest.lock */,
 				77C21C7B27BF769B0038507C /* Sources */,
 				77C21C7C27BF769B0038507C /* Frameworks */,
 				77C21C7D27BF769B0038507C /* Resources */,
+				F25ED4F0109973305E1ADCB3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +550,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77C21CAF27BF769E0038507C /* Build configuration list for PBXNativeTarget "bnc-ios-latihanTests" */;
 			buildPhases = (
+				B3F3D4ACB4B0021EBC091128 /* [CP] Check Pods Manifest.lock */,
 				77C21C9427BF769E0038507C /* Sources */,
 				77C21C9527BF769E0038507C /* Frameworks */,
 				77C21C9627BF769E0038507C /* Resources */,
@@ -172,9 +569,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77C21CB227BF769E0038507C /* Build configuration list for PBXNativeTarget "bnc-ios-latihanUITests" */;
 			buildPhases = (
+				5A11599E39D584FC63F8AE63 /* [CP] Check Pods Manifest.lock */,
 				77C21C9E27BF769E0038507C /* Sources */,
 				77C21C9F27BF769E0038507C /* Frameworks */,
 				77C21CA027BF769E0038507C /* Resources */,
+				1CF5DFF5E4321FED403B6B8A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,9 +633,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77C21CC427BF86080038507C /* LoginVC.xib in Resources */,
+				77C21CC627BF869B0038507C /* DetailVC.xib in Resources */,
+				77A15CD627C285B2004A6420 /* ImagePreview.xib in Resources */,
 				77C21C9227BF769E0038507C /* LaunchScreen.storyboard in Resources */,
+				77C21CBE27BF83C60038507C /* BottomNavigationVC.xib in Resources */,
+				77D087A927C0A234004ECF64 /* ListMovieCell.xib in Resources */,
+				77C21CC027BF854D0038507C /* HomeVC.xib in Resources */,
 				77C21C8F27BF769E0038507C /* Assets.xcassets in Resources */,
-				77C21C8A27BF769B0038507C /* Main.storyboard in Resources */,
+				77C21CC227BF85FD0038507C /* WishlistVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +661,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		032B3A28E826E8005EBB6C8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bnc-ios-latihan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CF5DFF5E4321FED403B6B8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bnc-ios-latihan-bnc-ios-latihanUITests/Pods-bnc-ios-latihan-bnc-ios-latihanUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bnc-ios-latihan-bnc-ios-latihanUITests/Pods-bnc-ios-latihan-bnc-ios-latihanUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bnc-ios-latihan-bnc-ios-latihanUITests/Pods-bnc-ios-latihan-bnc-ios-latihanUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A11599E39D584FC63F8AE63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bnc-ios-latihan-bnc-ios-latihanUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3F3D4ACB4B0021EBC091128 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bnc-ios-latihanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F25ED4F0109973305E1ADCB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bnc-ios-latihan/Pods-bnc-ios-latihan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bnc-ios-latihan/Pods-bnc-ios-latihan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bnc-ios-latihan/Pods-bnc-ios-latihan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		77C21C7B27BF769B0038507C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77C21C8727BF769B0038507C /* ViewController.swift in Sources */,
+				77C21D0027BFB4660038507C /* UIView.swift in Sources */,
+				77D087A427C0A090004ECF64 /* UIImageView.swift in Sources */,
+				77D087A227C08449004ECF64 /* BasePresenter.swift in Sources */,
+				77A15CD127C24A52004A6420 /* UITableView.swift in Sources */,
+				77D087B127C0D212004ECF64 /* HomePresenter.swift in Sources */,
+				77D087B527C16116004ECF64 /* DetailMovieInteractor.swift in Sources */,
+				77A15CCD27C1ED3C004A6420 /* MovieDataSource.swift in Sources */,
+				77C21CE727BF92350038507C /* RouteSetup.swift in Sources */,
+				77C21D0F27C028290038507C /* String.swift in Sources */,
+				77A15CCB27C1E280004A6420 /* BaseViewController.swift in Sources */,
+				77C21CD827BF89C00038507C /* RemoteDataSource.swift in Sources */,
+				77C21CBC27BF83AE0038507C /* BottomNavigationVC.swift in Sources */,
+				77A15CD427C285A3004A6420 /* ImagePreview.swift in Sources */,
+				77C21CD027BF87FE0038507C /* WishlistVC.swift in Sources */,
+				77C21CE027BF8CB30038507C /* NetworkAlert.swift in Sources */,
+				77D087A027C083E9004ECF64 /* BasePresenterProtocol.swift in Sources */,
+				77D087A727C0A220004ECF64 /* ListMovieCell.swift in Sources */,
+				77D087B327C16102004ECF64 /* DetailMovieModel.swift in Sources */,
+				77C21CE327BF8DC00038507C /* UserDefault.swift in Sources */,
+				77D0879E27C08377004ECF64 /* LoginPresenter.swift in Sources */,
+				77C21CEE27BFADE50038507C /* BaseModel.swift in Sources */,
+				77C21CEB27BFAD560038507C /* EndpointSetup.swift in Sources */,
+				77C21CF427BFB0F00038507C /* LoginModel.swift in Sources */,
 				77C21C8D27BF769B0038507C /* bnc_ios_latihan.xcdatamodeld in Sources */,
+				77C21CCE27BF87DB0038507C /* HomeVC.swift in Sources */,
+				77D0879B27C07AD6004ECF64 /* LoginInteractor.swift in Sources */,
+				77C21CD227BF882A0038507C /* DetailVC.swift in Sources */,
 				77C21C8327BF769B0038507C /* AppDelegate.swift in Sources */,
-				77C21C8527BF769B0038507C /* SceneDelegate.swift in Sources */,
+				77D087AB27C0BDB4004ECF64 /* MovieModel.swift in Sources */,
+				77D087B927C166FE004ECF64 /* DetailPresenter.swift in Sources */,
+				77C21CDC27BF8C330038507C /* DataManager.swift in Sources */,
+				77C21CDE27BF8CA40038507C /* Reachability.swift in Sources */,
+				77D087AD27C0CFBE004ECF64 /* MovieInteractor.swift in Sources */,
+				77C21CCC27BF878B0038507C /* LoginVC.swift in Sources */,
+				77A15CCF27C1EDA4004A6420 /* MovieEntity.swift in Sources */,
+				77C21D0D27BFB96B0038507C /* Switcher.swift in Sources */,
+				77C21D0B27BFB95A0038507C /* View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +821,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77C21CA927BF769E0038507C /* bnc_ios_latihanUITestsLaunchTests.swift in Sources */,
 				77C21CA727BF769E0038507C /* bnc_ios_latihanUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,14 +841,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		77C21C8827BF769B0038507C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				77C21C8927BF769B0038507C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		77C21C9027BF769E0038507C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -438,16 +970,19 @@
 		};
 		77C21CAD27BF769E0038507C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E294D8F96FF5439C9167766 /* Pods-bnc-ios-latihan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "bnc-ios-latihan/Info.plist";
+				INFOPLIST_FILE = "bnc-ios-latihan/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,24 +992,28 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mtaufiqramadhan.bnc-ios-latihan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		77C21CAE27BF769E0038507C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5134204F95A979498F1194D /* Pods-bnc-ios-latihan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "bnc-ios-latihan/Info.plist";
+				INFOPLIST_FILE = "bnc-ios-latihan/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -484,14 +1023,16 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mtaufiqramadhan.bnc-ios-latihan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		77C21CB027BF769E0038507C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 132537DB30F12E5405FB282F /* Pods-bnc-ios-latihanTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +1057,7 @@
 		};
 		77C21CB127BF769E0038507C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5766351902B3F36975F95B7 /* Pods-bnc-ios-latihanTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +1082,7 @@
 		};
 		77C21CB327BF769E0038507C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2926FDA16B221AAAD890698 /* Pods-bnc-ios-latihan-bnc-ios-latihanUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -562,6 +1105,7 @@
 		};
 		77C21CB427BF769E0038507C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5333FC043485F330D8703ED5 /* Pods-bnc-ios-latihan-bnc-ios-latihanUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
